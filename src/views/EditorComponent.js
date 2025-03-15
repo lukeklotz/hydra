@@ -10,7 +10,7 @@ export default class Editor extends Component {
   constructor (id, state, emit) {
     super(id)
     this.local = state.components[id] = {}
-    state.editor = this // hacky way fo sharing editor to rest of app
+    state.editor = this // hacky way for sharing editor to rest of app
     this.emit = emit
   }
 
